@@ -1,4 +1,4 @@
-# 🎨 Rendering Tips for Manim Scripts
+#  Rendering Tips for Manim Scripts
 
 A quick reference for getting the best output from these animation scripts.
 
