@@ -1,0 +1,10 @@
+# Ignore the bundled FFmpeg binary (too large for GitHub)
+ffmpeg-8.0.1/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Manim output
+media/
