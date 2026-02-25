@@ -90,7 +90,7 @@ Run the installer and follow the setup wizard. Key settings during installation:
 
 - **Install for:** "Just for me" (or "All users" if on a shared machine)
 - **Preferred paper:** Letter or A4
-- **Install missing packages on-the-fly:** Select **"Yes"** ✅
+- **Install missing packages on-the-fly:** Select **"Yes"** 
 
 >  The "install on-the-fly" setting lets MiKTeX automatically download any LaTeX package that Manim needs the first time it's used, so you don't have to manage packages manually.
 
@@ -174,6 +174,6 @@ winget install Gyan.FFmpeg
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source. Feel free to use and adapt these scripts for your own educational content.
