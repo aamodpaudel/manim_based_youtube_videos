@@ -1,8 +1,8 @@
-# 🎬 Manim-Based YouTube Videos
+#  Manim-Based YouTube Videos
 
 A collection of Python scripts used to create mathematical and AI-concept animations for YouTube, powered by **[Manim Community Edition](https://www.manim.community/)**.
 
-## 📂 Scripts Overview
+##  Scripts Overview
 
 | File | Topic |
 |------|-------|
@@ -19,7 +19,7 @@ A collection of Python scripts used to create mathematical and AI-concept animat
 
 ---
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 Before running any of the scripts, you need to install the following tools:
 
@@ -30,7 +30,7 @@ Before running any of the scripts, you need to install the following tools:
 
 ---
 
-## 🐍 1. Installing Manim
+##  1. Installing Manim
 
 Manim is a Python library for creating mathematical animations. We use the **Community Edition**.
 
@@ -38,7 +38,7 @@ Manim is a Python library for creating mathematical animations. We use the **Com
 
 Download and install Python 3.8 or later from [python.org](https://www.python.org/downloads/).
 
-> ⚠️ During installation, check **"Add Python to PATH"**.
+>  During installation, check **"Add Python to PATH"**.
 
 ### Step 2 — Install Manim via pip
 
@@ -72,7 +72,7 @@ manim -pql 1_Fine_Tuning.py FineTuningScene
 
 ---
 
-## 📝 2. Installing LaTeX (MiKTeX on Windows)
+##  2. Installing LaTeX (MiKTeX on Windows)
 
 Manim uses **LaTeX** to render mathematical equations and text. Without it, any scene using `MathTex`, `Tex`, or `$$...$$` will fail.
 
@@ -92,7 +92,7 @@ Run the installer and follow the setup wizard. Key settings during installation:
 - **Preferred paper:** Letter or A4
 - **Install missing packages on-the-fly:** Select **"Yes"** ✅
 
-> 💡 The "install on-the-fly" setting lets MiKTeX automatically download any LaTeX package that Manim needs the first time it's used, so you don't have to manage packages manually.
+>  The "install on-the-fly" setting lets MiKTeX automatically download any LaTeX package that Manim needs the first time it's used, so you don't have to manage packages manually.
 
 ### Step 3 — Update MiKTeX
 
@@ -108,11 +108,11 @@ pdflatex --version
 
 You should see version information confirming the install.
 
-> ⚠️ After installing MiKTeX, **restart your terminal** (or even your machine) so that the `PATH` is picked up correctly.
+>  After installing MiKTeX, **restart your terminal** (or even your machine) so that the `PATH` is picked up correctly.
 
 ---
 
-## 🎞️ 3. Why FFmpeg is Necessary
+##  3. Why FFmpeg is Necessary
 
 **FFmpeg** is a free, open-source multimedia framework used to encode and export video and audio. Manim depends on FFmpeg to:
 
@@ -154,7 +154,7 @@ winget install Gyan.FFmpeg
 
 ---
 
-## ✅ Quick Start Checklist
+##  Quick Start Checklist
 
 - [ ] Python 3.8+ installed and in PATH
 - [ ] `pip install manim` completed successfully
@@ -165,7 +165,7 @@ winget install Gyan.FFmpeg
 
 ---
 
-## 🔗 Resources
+##  Resources
 
 - [Manim Community Docs](https://docs.manim.community/)
 - [MiKTeX Download](https://miktex.org/download)
